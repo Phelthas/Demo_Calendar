@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431B59AD1CA176C4001FD9F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 431B59AC1CA176C4001FD9F5 /* main.m */; };
+		431B59B01CA176C4001FD9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 431B59AF1CA176C4001FD9F5 /* AppDelegate.m */; };
+		431B59B31CA176C4001FD9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431B59B21CA176C4001FD9F5 /* ViewController.m */; };
+		431B59B61CA176C4001FD9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431B59B41CA176C4001FD9F5 /* Main.storyboard */; };
+		431B59B81CA176C4001FD9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431B59B71CA176C4001FD9F5 /* Assets.xcassets */; };
+		431B59BB1CA176C4001FD9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431B59B91CA176C4001FD9F5 /* LaunchScreen.storyboard */; };
+		431B59C41CA17703001FD9F5 /* LXMCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431B59C31CA17703001FD9F5 /* LXMCalendarViewController.m */; };
+		431B59C71CA17D84001FD9F5 /* LXMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 431B59C61CA17D84001FD9F5 /* LXMCalendarView.m */; };
+		431B59CB1CA17DA3001FD9F5 /* LXMCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 431B59C91CA17DA3001FD9F5 /* LXMCalendarDayCell.m */; };
+		431B59CC1CA17DA3001FD9F5 /* LXMCalendarDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 431B59CA1CA17DA3001FD9F5 /* LXMCalendarDayCell.xib */; };
+		435C9DDA1CA2D645008A1753 /* LXMSignModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 435C9DD91CA2D645008A1753 /* LXMSignModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		431B59A81CA176C4001FD9F5 /* LXMDemo_Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXMDemo_Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		431B59AC1CA176C4001FD9F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		431B59AE1CA176C4001FD9F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		431B59AF1CA176C4001FD9F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		431B59B11CA176C4001FD9F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		431B59B21CA176C4001FD9F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		431B59B51CA176C4001FD9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		431B59B71CA176C4001FD9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		431B59BA1CA176C4001FD9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		431B59BC1CA176C4001FD9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431B59C21CA17703001FD9F5 /* LXMCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMCalendarViewController.h; sourceTree = "<group>"; };
+		431B59C31CA17703001FD9F5 /* LXMCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMCalendarViewController.m; sourceTree = "<group>"; };
+		431B59C51CA17D84001FD9F5 /* LXMCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMCalendarView.h; sourceTree = "<group>"; };
+		431B59C61CA17D84001FD9F5 /* LXMCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMCalendarView.m; sourceTree = "<group>"; };
+		431B59C81CA17DA3001FD9F5 /* LXMCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMCalendarDayCell.h; sourceTree = "<group>"; };
+		431B59C91CA17DA3001FD9F5 /* LXMCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMCalendarDayCell.m; sourceTree = "<group>"; };
+		431B59CA1CA17DA3001FD9F5 /* LXMCalendarDayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXMCalendarDayCell.xib; sourceTree = "<group>"; };
+		431B59CF1CA18137001FD9F5 /* Demo_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_PrefixHeader.pch; sourceTree = "<group>"; };
+		435C9DD81CA2D645008A1753 /* LXMSignModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMSignModel.h; sourceTree = "<group>"; };
+		435C9DD91CA2D645008A1753 /* LXMSignModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMSignModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431B59A51CA176C4001FD9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431B599F1CA176C4001FD9F5 = {
+			isa = PBXGroup;
+			children = (
+				431B59AA1CA176C4001FD9F5 /* LXMDemo_Calendar */,
+				431B59A91CA176C4001FD9F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		431B59A91CA176C4001FD9F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431B59A81CA176C4001FD9F5 /* LXMDemo_Calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431B59AA1CA176C4001FD9F5 /* LXMDemo_Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				431B59AE1CA176C4001FD9F5 /* AppDelegate.h */,
+				431B59AF1CA176C4001FD9F5 /* AppDelegate.m */,
+				431B59B11CA176C4001FD9F5 /* ViewController.h */,
+				431B59B21CA176C4001FD9F5 /* ViewController.m */,
+				431B59C21CA17703001FD9F5 /* LXMCalendarViewController.h */,
+				431B59C31CA17703001FD9F5 /* LXMCalendarViewController.m */,
+				431B59C51CA17D84001FD9F5 /* LXMCalendarView.h */,
+				431B59C61CA17D84001FD9F5 /* LXMCalendarView.m */,
+				431B59C81CA17DA3001FD9F5 /* LXMCalendarDayCell.h */,
+				431B59C91CA17DA3001FD9F5 /* LXMCalendarDayCell.m */,
+				431B59CA1CA17DA3001FD9F5 /* LXMCalendarDayCell.xib */,
+				435C9DD81CA2D645008A1753 /* LXMSignModel.h */,
+				435C9DD91CA2D645008A1753 /* LXMSignModel.m */,
+				431B59B41CA176C4001FD9F5 /* Main.storyboard */,
+				431B59B71CA176C4001FD9F5 /* Assets.xcassets */,
+				431B59B91CA176C4001FD9F5 /* LaunchScreen.storyboard */,
+				431B59BC1CA176C4001FD9F5 /* Info.plist */,
+				431B59CF1CA18137001FD9F5 /* Demo_PrefixHeader.pch */,
+				431B59AB1CA176C4001FD9F5 /* Supporting Files */,
+			);
+			path = LXMDemo_Calendar;
+			sourceTree = "<group>";
+		};
+		431B59AB1CA176C4001FD9F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				431B59AC1CA176C4001FD9F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431B59A71CA176C4001FD9F5 /* LXMDemo_Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431B59BF1CA176C4001FD9F5 /* Build configuration list for PBXNativeTarget "LXMDemo_Calendar" */;
+			buildPhases = (
+				431B59A41CA176C4001FD9F5 /* Sources */,
+				431B59A51CA176C4001FD9F5 /* Frameworks */,
+				431B59A61CA176C4001FD9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXMDemo_Calendar;
+			productName = LXMDemo_Calendar;
+			productReference = 431B59A81CA176C4001FD9F5 /* LXMDemo_Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431B59A01CA176C4001FD9F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LXM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = luxiaoming;
+				TargetAttributes = {
+					431B59A71CA176C4001FD9F5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 431B59A31CA176C4001FD9F5 /* Build configuration list for PBXProject "LXMDemo_Calendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 431B599F1CA176C4001FD9F5;
+			productRefGroup = 431B59A91CA176C4001FD9F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431B59A71CA176C4001FD9F5 /* LXMDemo_Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		431B59A61CA176C4001FD9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431B59CC1CA17DA3001FD9F5 /* LXMCalendarDayCell.xib in Resources */,
+				431B59BB1CA176C4001FD9F5 /* LaunchScreen.storyboard in Resources */,
+				431B59B81CA176C4001FD9F5 /* Assets.xcassets in Resources */,
+				431B59B61CA176C4001FD9F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431B59A41CA176C4001FD9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431B59C41CA17703001FD9F5 /* LXMCalendarViewController.m in Sources */,
+				431B59C71CA17D84001FD9F5 /* LXMCalendarView.m in Sources */,
+				431B59B31CA176C4001FD9F5 /* ViewController.m in Sources */,
+				431B59B01CA176C4001FD9F5 /* AppDelegate.m in Sources */,
+				431B59CB1CA17DA3001FD9F5 /* LXMCalendarDayCell.m in Sources */,
+				435C9DDA1CA2D645008A1753 /* LXMSignModel.m in Sources */,
+				431B59AD1CA176C4001FD9F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		431B59B41CA176C4001FD9F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431B59B51CA176C4001FD9F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		431B59B91CA176C4001FD9F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431B59BA1CA176C4001FD9F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		431B59BD1CA176C4001FD9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		431B59BE1CA176C4001FD9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		431B59C01CA176C4001FD9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXMDemo_Calendar/Demo_PrefixHeader.pch";
+				INFOPLIST_FILE = LXMDemo_Calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouj.LXMDemo-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		431B59C11CA176C4001FD9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXMDemo_Calendar/Demo_PrefixHeader.pch";
+				INFOPLIST_FILE = LXMDemo_Calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouj.LXMDemo-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431B59A31CA176C4001FD9F5 /* Build configuration list for PBXProject "LXMDemo_Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431B59BD1CA176C4001FD9F5 /* Debug */,
+				431B59BE1CA176C4001FD9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431B59BF1CA176C4001FD9F5 /* Build configuration list for PBXNativeTarget "LXMDemo_Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431B59C01CA176C4001FD9F5 /* Debug */,
+				431B59C11CA176C4001FD9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431B59A01CA176C4001FD9F5 /* Project object */;
+}
